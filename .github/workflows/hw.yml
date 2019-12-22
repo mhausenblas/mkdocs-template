@@ -1,4 +1,4 @@
-name: Hello world on release
+name: Hello world on PR
 
 on:
   pull_request:
@@ -10,6 +10,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
+    - name: Do some basic stats
       run: echo $GITHUB_REF
