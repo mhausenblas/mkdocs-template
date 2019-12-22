@@ -1,2 +1,1 @@
-# actions-sandbox
-Experiments around GitHub Actions
+# Experiments around GitHub Actions
