@@ -1,7 +1,8 @@
 name: Hello world on release
 
 on:
-  status
+  pull_request:
+    types: [opened, closed]
 
 jobs:
   build:
@@ -11,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world!
+      run: echo Hello, world! PR is: $GITHUB_REF $GITHUB_SHA
