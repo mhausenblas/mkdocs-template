@@ -3,7 +3,7 @@ name: Hello world on release
 on:
   push:
     branches: 
-      - release/*
+      - release
 
 jobs:
   build:
