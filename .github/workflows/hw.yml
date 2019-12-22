@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world! PR is: $GITHUB_REF $GITHUB_SHA
+      run: echo "PR is: $GITHUB_ACTION"
