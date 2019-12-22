@@ -1,9 +1,7 @@
 name: Hello world on release
 
 on:
-  push:
-    branches: 
-      - release
+  status
 
 jobs:
   build:
