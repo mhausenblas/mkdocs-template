@@ -1,6 +1,6 @@
 ## Sample
 
-One more, finally. Or not?
+One more, finally. Or not? :)
 
 ```
 $ some 
