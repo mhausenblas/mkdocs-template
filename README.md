@@ -1,3 +1,3 @@
-# Experiments around GitHub Actions
+# Example MkDocs deploy GitHub Action
 
-Let's trigger it!
+This is a template that uses the  [MkDocs deploy](https://github.com/marketplace/actions/deploy-mkdocs) GitHub action.
