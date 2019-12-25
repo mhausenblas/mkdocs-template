@@ -2,5 +2,9 @@ site_name: Test docs
 site_description: 'A docs test'
 site_author: 'Michael Hausenblas'
 docs_dir: docs/
+repo_name: 'mhausenblas/actions-sandbox'
+repo_url: 'https://github.com/mhausenblas/actions-sandbox'
+nav:
+    - Home: index.md
 theme:
   name: 'material'
