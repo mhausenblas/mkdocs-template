@@ -2,3 +2,5 @@ site_name: Test docs
 site_description: 'A docs test'
 site_author: 'Michael Hausenblas'
 docs_dir: docs/
+theme:
+  name: 'material'
