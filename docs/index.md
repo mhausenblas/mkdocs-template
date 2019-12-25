@@ -1,6 +1,6 @@
 ## Sample
 
-One more:
+One more, finally:
 
 ```
 $ some 
